@@ -7,7 +7,7 @@ v47 is a technical-cleanup release focused on maintainability, shorter Home-page
 - Shortened the Home hero, featured-project description, recent-path heading, and teaching summaries so the landing page is faster to scan.
 - Removed dead Command Palette / Focus Glossary CSS and stale related copy left from earlier versions.
 - Renamed the remaining versioned accessibility binder to a final production name.
-- Reorganized CSS into `css/core.css` plus page-specific files: `home.css`, `research.css`, `about.css`, and `connect.css`. Each page now loads only `core.css` plus its own page stylesheet.
+- Reorganized CSS into `core.css` plus page-specific files: `home.css`, `research.css`, `about.css`, and `connect.css`. Each page now loads only `core.css` plus its own page stylesheet.
 - Added `buildDate` to `site-config.js`. Footer freshness text and CV-preview metadata are generated from it instead of being manually maintained in JavaScript.
 - `finalize_deployment.py` refreshes `buildDate` automatically when preparing a public deployment.
 - Updated documentation so it reflects report-backed project visuals, conceptual previews, current avatar behavior, and the current deployment workflow.
@@ -20,11 +20,11 @@ v47 is a technical-cleanup release focused on maintainability, shorter Home-page
 - `about.html` — About
 - `connect.html` — Contact
 - `script.js` — shared interaction, bilingual content, project data, report/CV readers, avatar behavior
-- `css/core.css` — shared design system and shared components
-- `css/home.css` — Home-only styling
-- `css/research.css` — Research-only styling
-- `css/about.css` — About-only styling
-- `css/connect.css` — Connect-only styling
+- `core.css` — shared design system and shared components
+- `home.css` — Home-only styling
+- `research.css` — Research-only styling
+- `about.css` — About-only styling
+- `connect.css` — Connect-only styling
 - `site-config.js` — production URL, build date, academic profile URLs, analytics, project Code/Demo links
 
 ## Project evidence
@@ -62,3 +62,7 @@ python finalize_deployment.py https://your-real-domain.com
 ```
 
 Optional Scholar and ORCID URLs can be passed at the same time. See `DEPLOYMENT.md`.
+
+
+## Flat GitHub Pages package
+This build is intentionally **fully flat**: all HTML, CSS, JavaScript, images, and project PDFs live in the repository root. Do not recreate `assets/`, `css/`, or `reports/` folders for this build. Upload all files directly to the repository root.

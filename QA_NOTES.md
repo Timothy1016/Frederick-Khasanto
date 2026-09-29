@@ -5,7 +5,7 @@
 - `finalize_deployment.py` compiles successfully.
 - CSS parses without syntax errors after the cleanup and page-specific split.
 - Dead Command Palette / Focus Glossary selectors from earlier versions were removed.
-- Every HTML page loads `css/core.css`; Home, Research, About, and Connect additionally load only their own page stylesheet.
+- Every HTML page loads `core.css`; Home, Research, About, and Connect additionally load only their own page stylesheet.
 - Duplicate HTML IDs checked.
 - Local `href` / `src` references checked.
 - Raster images retain intrinsic width/height attributes where used in HTML.
