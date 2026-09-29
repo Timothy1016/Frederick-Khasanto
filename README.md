@@ -1,9 +1,14 @@
-# Frederick Research Portfolio v47
+# Frederick Research Portfolio v56
 
-v47 is a technical-cleanup release focused on maintainability, shorter Home-page copy, page-specific CSS delivery, build-date automation, and another mobile/accessibility pass. The visual direction remains the same as v46.
+v56 is a premium academic-experience refinement. It preserves the editorial identity while making the research story easier to scan: evidence appears earlier, the current doctoral direction is framed carefully, academic documents are easier to access, and the visual system uses one restrained research-green accent.
 
-## What changed in v47
+## What changed in v56
 
+- Added a Home evidence strip with report-backed project metrics.
+- Added a Home Research Now section that separates current doctoral direction from completed results.
+- Added a Research orientation row and Academic Documents Hub.
+- Added v56-premium.css as a final design layer for the deep-green accent, editorial spacing, navigation polish, focus states, responsive behavior, and reduced-motion support.
+- Added DESIGN_NOTES_v56.md with the Figma concept link and design rationale.
 - Shortened the Home hero, featured-project description, recent-path heading, and teaching summaries so the landing page is faster to scan.
 - Removed dead Command Palette / Focus Glossary CSS and stale related copy left from earlier versions.
 - Renamed the remaining versioned accessibility binder to a final production name.
